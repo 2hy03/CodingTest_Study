@@ -22,7 +22,6 @@ completion: ["eden", "kiki"]
     return participant[0]
 """
 
-
 #Hash이용
 def solution(participant, completion):
     hashDict={}
@@ -36,6 +35,7 @@ def solution(participant, completion):
     
     return hashDict[sumHash]
 
+#Test_case
 participant=["leo", "kiki", "eden"]	
 completion=["eden", "kiki"]
 print(solution(participant, completion))
