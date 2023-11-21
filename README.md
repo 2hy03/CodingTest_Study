@@ -1,2 +1,2 @@
-# CodingTest_personal
+# CodingTest_Study
 
