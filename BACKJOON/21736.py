@@ -13,14 +13,13 @@ queue = deque()
 
 for i in range(N):
   graph.append(list(map(str, sys.stdin.readline().strip())))
-
+  
   for j in range(len(graph[i])):
     if graph[i][j]=='I':
       queue.append([i, j])
       visited[i][j]=1
 
 while queue:
-  
   for _ in range(len(queue)):
     x, y = queue.popleft()
     
