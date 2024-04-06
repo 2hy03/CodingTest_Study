@@ -1,5 +1,6 @@
 #7568. 덩치
 #구현
+#enumerate: 인덱스와 값을 동시에 접근하면서 루프를 돌리고 싶을때
 N=int(input())
 people=[]
 n_list=[1]*N
