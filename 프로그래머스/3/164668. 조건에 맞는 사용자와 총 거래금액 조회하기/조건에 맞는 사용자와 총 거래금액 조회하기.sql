@@ -1,3 +1,5 @@
+-- WHERE는 기본적인 조건절로 우선적으로 모든 필드를 조건에 둘 수 있다.
+-- GROUP BY 된 이후 특정한 필드로 그룹화 되어진 새로운 테이블에 조건을 줄 수 있다.
 SELECT U.USER_ID,U.NICKNAME, SUM(B.PRICE) AS TOTAL_SALES
 FROM USED_GOODS_USER AS U
 JOIN USED_GOODS_BOARD AS B
