@@ -1,4 +1,3 @@
-
 b,c,d=list(map(int,input().split()))
 b_list=list(map(int,input().split()))
 b_list.sort(reverse=True)
