@@ -13,7 +13,7 @@ for _ in range(M):
     c=list(map(int,input().split()))
     c1=c.copy()
     
-    for _ in range(N+1):
+    for _ in range(N):
         if data==c or data_R==c:
             result.append(c1)
             break
